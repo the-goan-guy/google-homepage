@@ -1,23 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="new-google-favicon-512.webp" type="image/gif" sizes="16x16">
+    <title>Google</title>
 </head>
-<body>
-<div> 
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
-    <a href="#"><img src="///home/rahul/the_odin-project/google-homepage/kindpng_702497.png" alt="Dashboard" height="25px" width="25px"></a>
-    <a href="#"> Profile </a>
-</div>
 
-<div>
-    <img src="///home/rahul/the_odin-project/google-homepage/googlelogo_color_272x92dp.png" id="google_logo">
-</div>
-        
+<body>
+    <div>
+        <div class="d-flex flex-row-reverse" id="navbar">
+            <div class="p-1"><a class="nav-link" href="https://myaccount.google.com/" style="padding-top: 4px;"><img
+                        src="E:\google-homepage-master\IMG_3313.jpg" alt="Dashboard" id="dp" height="35px"
+                        width="35px"></a></div>
+            <div class="p-1"><a class="nav-link" href="https://www.google.co.in/intl/en/about/products"><img
+                        src="E:\google-homepage-master\kindpng_702497.png" alt="Dashboard" height="25px"
+                        width="25px"></a></div>
+            <div class="p-1"><a class="nav-link" href="https://www.google.es/imghp">Images</a></div>
+            <div class="p-1"><a class="nav-link active" href="https://mail.google.com/mail/">Gmail</a></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-8">
+                    <img src="E:\google-homepage-master\googlelogo_color_272x92dp.png" class="mx-auto d-block"
+                        alt="Responsive image">
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-7">
+                    <form class="form-inline">
+                        <svg class="svg-icon" viewBox="0 0 20 20" style="
+                        width: 18px;
+                        position: absolute;
+                        right: 78%;">
+                            <path fill="none" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+								c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+								c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+								s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                        </svg>
+                        <input class="form-control " id="textbox" type="search" aria-label="Search" autofocus>
+                        <input type="button" type="image">
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-light mx-auto d-block">Google Search</button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-light mx-auto d-block"> I'm Feeling Lucky</button>
+
+                </div>
+                <div class="col-4 "></div>
+            </div>
+            <div class="card-footer text-muted" id="footer">
+                <div>
+                    <span>
+                        <a href="##">India</a>
+                    </span>
+                    <hr>
+                    <span class="d-flex">
+                        <span class="p-2"><a href="https://ads.google.com/">Advertising</a></span>
+                        <span class="p-2"><a href="https://www.google.com/services/">Business</a></span>
+                        <span class="p-2"><a href="https://about.google/">About</a></span>
+                        <span class="mr-auto p-2"><a href="https://www.google.com/search/howsearchworks/">How Search
+                                works</a></span>
+                        <span class="p-2"><a href="https://policies.google.com/privacy">Privacy</a></span>
+                        <span class="p-2"><a href="https://policies.google.com/terms">Terms</a></span>
+                        <span class="p-2"><a href="https://www.google.com/preferences">Settings</a></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

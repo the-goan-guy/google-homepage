@@ -1,6 +1,82 @@
+body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: arial,sans-serif !important;
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(226, 226, 226, 0.534);
+    height: 6.5rem;            /* Footer height */
+}
+#navbar{
+  color: black; 
+  font-size: 14px;
+  padding: 8px 8px;
+}
+.col-12{
+    height: 100px;
+}
+#textbox{
+  width: 75%;
+  margin: 20px;
+  border-radius: 25px;
+  margin-left: 15%;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+  height: 50px;
+  padding: 0px 0px 0px  50px;
+}
+#textbox:hover{
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
 
+input[type="button"] {
+  margin-left: -50px;
+  height: 2px;
+  width: 12px;
+  background: url(E:/google-homepage-master/Google_mic.png) 0 0 no-repeat;
+  border: none;
+  border-radius: 0;
+  background-size: 16px;
+  padding: 4px 5px 22px 14px;
+}
 
-#google_logo{
- position: center;
- flex: auto;
+#dp{
+    border-radius: 25px;
+}
+
+a:link {
+    color:rgb(105, 104, 104);
+    background-color: transparent;
+    text-decoration: none;
+}
+a.nav-link{
+color: black;
+padding: 8px;
+}
+@media (max-width: 500px)
+{
+    html{
+        font-size: small;
+    }
+}
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #5c6168d0;
+}
+
+.svg-icon circle {
+  stroke: #5c6168d0;
+  stroke-width: 1;
 }
