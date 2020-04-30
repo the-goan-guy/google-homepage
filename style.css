@@ -39,7 +39,7 @@ input[type="button"] {
   margin-left: -50px;
   height: 2px;
   width: 12px;
-  background: url(Google_mic.png) 0 0 no-repeat;
+  background: url(\Google_mic.png) 0 0 no-repeat;
   border: none;
   border-radius: 0;
   background-size: 16px;
